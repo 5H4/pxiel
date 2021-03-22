@@ -3,6 +3,8 @@ from no_tf import pxiel as px
 X = []
 y = []
 
+#test 
+
 import random
 for x in range(0, 5000):
     randomlist = random.sample(range(0, 5), 4)
