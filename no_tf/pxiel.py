@@ -83,11 +83,13 @@ class Pxiel():
             _near_dot_weight = sum(input) / len(input)
         else :
             _near_dot_weight = input
-
         n_dot = np.asarray(self.ExtractVector(case = self.neural_network))
         idx = (np.abs(n_dot - _near_dot_weight)).argmin()
 
-        return self.neural_network[idx]
+        try:
+            return self.neural_network[idx]
+        except:
+            return self.neural_network[round((idx/2)-1)]
 
     def ExtractVector(self, case = None):
         return [x for x in case]

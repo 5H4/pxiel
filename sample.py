@@ -6,15 +6,15 @@ y = []
 #test 
 
 import random
-for x in range(0, 5000):
+for x in range(0, 10):
     randomlist = random.sample(range(0, 5), 4)
     X.append(randomlist)
     y.append(random.sample(range(0, 2), 1)[0])
 
 model = px.Pxiel(X = X, y=y, elastic = True)
 
-model = px.Pxiel()
+# model = px.Pxiel()
 
-prediction = model.Predict([1, 3, 4, 2])
+# prediction = model.Predict([1, 3, 4, 2])
 
-print(prediction)
+# print(prediction)
