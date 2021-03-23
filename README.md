@@ -1,4 +1,4 @@
-# Pxiel - Text classification wihout tensorflow, keras etc..
+# Pxiel - Text classification without tensorflow, keras etc..
 Mini dot have large Node, node have small size, size is a sum of the vector, vector has weight , weight has prediction.
 
 Train and predict with 2 lines of code.
