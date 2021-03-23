@@ -28,4 +28,10 @@ model = px.Pxiel()
 pred = nutela.nuty(input)
 
 prediction = model.Predict(pred)
+
+if model.Predict(pred) == 0:
+    print('ham')
+else:
+    print('spam')
+
 ```
