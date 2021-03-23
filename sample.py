@@ -15,11 +15,8 @@ for i, row in data.iterrows():
     r = 0
     if row.Category == 'spam':
         r = 1
-    li = []
-    for char in row.Message.upper():
-        for num in nutela:
-            if num[1] == char:
-                li.append(num[0])
+    li = nutela.nuty(row.Message.upper())
+    
     if len(li) > 3:
         Y.append(r)
         X.append(li)
