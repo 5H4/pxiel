@@ -1,8 +1,6 @@
 # Pxiel - Text classification without tensorflow, keras etc..
 Mini dot have large Node, node have small size, size is a sum of the vector, vector has weight , weight has prediction.
 
-Train and predict with 2 lines of code.
-
 Test on [Google colab](https://colab.research.google.com/drive/1RZu3F8WHmpIk_GYkRZ3N96m-FVM5uxg9?usp=sharing)
 
 ```python
